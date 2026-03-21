@@ -1,0 +1,94 @@
+aside {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  display: grid;
+  grid-template-rows: 3fr 3fr 1fr;
+  padding: 10px 20px 10px 40px;
+  width: 300px;
+  background-color: lightyellow;
+
+
+}
+
+
+.story-ring {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* The  Instagram Gradient taken from gemini*/
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  padding: 2px;
+}
+
+.story-ring img {
+  width: 86%;
+  height: 86%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.user-info p {
+  font-weight: 600;
+}
+
+.user-name {
+
+  font-size: 24px;
+  color: black;
+  margin-top: 8px;
+}
+
+.user-profile-name {
+
+  font-size: 13px;
+  color: rgb(34, 34, 34);
+  margin-top: 10px;
+}
+
+.occupation {
+  margin-top: 3px;
+  font-size: 13px;
+  color: rgb(196, 194, 194);
+}
+
+
+
+.profile-buttons button {
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.09);
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.profile-buttons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.follow-button {
+  background-color: rgb(78, 127, 233);
+  border: none;
+  color: white;
+}
+
+.message-button,
+.email-button {
+  background-color: transparent;
+  border: 1px solid rgb(230, 225, 225);
+  margin-left: 5px;
+}
+
+.bio-container {
+  width: "500px";
+
+}
