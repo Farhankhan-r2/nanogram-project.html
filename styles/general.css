@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: lightyellow;
 
 }
 
@@ -9,22 +10,16 @@ p {
   margin: 0;
 }
 
-header {
-  background-color: lightyellow;
-}
-
 main {
   display: flex;
-  margin-top: 80px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-
-
-section {
-  flex-grow: 1;
-  padding: 20px;
-
+html,
+body {
+  overflow-x: hidden;
 }
